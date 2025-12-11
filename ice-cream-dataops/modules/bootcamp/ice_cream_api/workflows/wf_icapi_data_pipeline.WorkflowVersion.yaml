@@ -28,7 +28,7 @@ workflowDefinition:
     type: transformation
     parameters:
       transformation:
-        externalId: contextualize_ts_assets
+        externalId: create_asset_hierarchy
         concurrencyPolicy: fail
     retries: 3
     timeout: 3600
